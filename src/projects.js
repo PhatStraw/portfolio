@@ -19,12 +19,11 @@ class Projects extends Component {
                 <a href="https://donor-management-fe.netlify.com/signup"
                     target="_blank"
                     rel="noopener noreferer">
-                    <img src="src/img/project1.jpg"/>
                 </a>
 
                 <a className="btn-light" href="https://donor-management-fe.netlify.com/signup"  target="_blank"
                     rel="noopener noreferer">
-                    <i className="fas fa-eye"> </i>Project
+                    <i className="fas fa-eye"> </i>Donor Management
                 </a>
                 <a className="btn-dark" href="https://github.com/kevinsims1/donormanagement-fe"  target="_blank"
                     rel="noopener noreferer">
@@ -35,34 +34,37 @@ class Projects extends Component {
                 <div className="item">
                 <a  target="_blank"
                     rel="noopener noreferer"
-                    href="">
-                <img src="src/img/project2.jpg"/>
+                    href="https://github.com/kevinsims1/project-board">
                 </a>
 
                 <a className="btn-light"  target="_blank"
-                    rel="noopener noreferer">
-                    <i className="fas fa-eye"> </i>Project
+                    rel="noopener noreferer"
+                    href="https://github.com/kevinsims1/project-board">
+                    <i className="fas fa-eye"> </i>Project Board
                 </a>
                 <a className="btn-dark"  target="_blank"
-                    rel="noopener noreferer">
+                    rel="noopener noreferer"
+                    href="https://github.com/kevinsims1/project-board">
                     <i className="fab fa-github"></i>Github
                 </a>
                 </div>                
             
                 <div className="item">
                 <a  target="_blank"
-                    rel="noopener noreferer"> 
-                     <img src="src/img/project3.jpg"/>
-                </a>
+                    rel="noopener noreferer"
+                    href="https://github.com/kevinsims1/OpenSource-marketplace-BE"> 
+                        </a>
 
                 <a className="btn-light"
                      target="_blank"
-                     rel="noopener noreferer">
-                    <i className="fas fa-eye"> </i>Project
+                     rel="noopener noreferer"
+                     href="https://github.com/kevinsims1/OpenSource-marketplace-BE">
+                    <i className="fas fa-eye"> </i>Open Source Marketplace Api
                 </a>
                 <a className="btn-dark"
                      target="_blank"
-                     rel="noopener noreferer">
+                     rel="noopener noreferer"
+                     href="https://github.com/kevinsims1/OpenSource-marketplace-BE">
                     <i className="fab fa-github"></i>Github
                 </a>
                 </div>             
@@ -70,39 +72,23 @@ class Projects extends Component {
                 <div className="item">
                 <a
                  target="_blank"
-                 rel="noopener noreferer">
-                     <img src="src/img/project4.jpg"/>
-                </a>
+                 rel="noopener noreferer"
+                 href="https://github.com/labs15-rv-life">
+                        </a>
 
                 <a className="btn-light"
                      target="_blank"
-                     rel="noopener noreferer">
-                    <i className="fas fa-eye"> </i>Project
+                     rel="noopener noreferer"
+                     href="https://github.com/labs15-rv-life">
+                    <i className="fas fa-eye"> </i>RV Navigator
                 </a>
                 <a className="btn-dark"
                      target="_blank"
-                     rel="noopener noreferer">
+                     rel="noopener noreferer"
+                     href="https://github.com/labs15-rv-life">
                     <i className="fab fa-github"></i>Github
                 </a>
                 </div>     
-            
-                <div className="item">
-                   <a target="_blank"
-                    rel="noopener noreferer"> 
-                     <img src="src/img/project5.jpg"/>
-                    </a>
-
-                    <a className="btn-light"
-                         target="_blank"
-                         rel="noopener noreferer">
-                        <i className="fas fa-eye"> </i>Project
-                    </a>
-                    <a className="btn-dark"
-                         target="_blank"
-                         rel="noopener noreferer">
-                        <i className="fab fa-github"></i>Github
-                    </a> 
-                </div>        
             </div>
             </main>
             <footer id="main-footer">
