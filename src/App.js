@@ -4,16 +4,22 @@ import HomePage from './home'
 import AboutMe from "./aboutMe";
 import Projects from "./projects";
 import Contact from './contact'
+import Nav from "./nav"
 
 function App() {
   return (
     <div className="App" >
-        <Switch>
+        <Nav/>
+        <HomePage />
+        <AboutMe />
+        <Projects />
+        <Contact />
+        {/* <Switch>
           <Route exact path="/" component={HomePage}/>
           <Route path="/aboutme" component={AboutMe}/>
           <Route path="/projects" component={Projects}/>
           <Route path='/contact' component={Contact}/>
-        </Switch>
+        </Switch> */}
     </div>
   );
 }

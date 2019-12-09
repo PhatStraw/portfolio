@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Nav from "./nav"
 
 class Projects extends Component {
     render(){
         return(
             <>
-             <Nav/>
+             
             <main id="Projects">
             <h1 className="lg-heading">
                 My <span className="text-secondary">Projects</span>
@@ -16,11 +15,9 @@ class Projects extends Component {
 
             <div className="projects">
             <div className="item">
-                <a
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 href="https://github.com/labs15-rv-life">
-                        </a>
+                <a href="https://github.com/labs15-rv-life">
+                 <img src="src/img/project1.jpg" alt=''/>
+                </a>
 
                 <a className="btn-light"
                      target="_blank"
@@ -40,6 +37,7 @@ class Projects extends Component {
                 <a  target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/kevinsims1/project-board">
+                    <img src="src/img/project2.jpg" alt=''/>
                 </a>
 
                 <a className="btn-light"  target="_blank"
@@ -58,6 +56,7 @@ class Projects extends Component {
                 <a href="https://donor-management-fe.netlify.com/signup"
                     target="_blank"
                     rel="noopener noreferrer">
+                    <img src="src/img/project1.jpg" alt=''/>
                 </a>
 
                 <a className="btn-light" href="https://donor-management-fe.netlify.com/signup"  target="_blank"
@@ -74,6 +73,7 @@ class Projects extends Component {
                 <a  target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/kevinsims1/OpenSource-marketplace-BE"> 
+                    <img src="../img/project1.jpg" alt=''/>
                         </a>
 
                 <a className="btn-light"
@@ -91,9 +91,6 @@ class Projects extends Component {
                 </div>             
             </div>
             </main>
-            <footer id="main-footer">
-             Copyright &copy; 2019
-            </footer>
             </>
         )
     }

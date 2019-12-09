@@ -7,7 +7,7 @@
 
 body {
     @include background;
-    background: $primary-color;
+    background: rgba($primary-color, $background-opacity);
     color: #fff;
     height: 100%;
     margin: 0;

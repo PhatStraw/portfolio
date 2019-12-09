@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import Nav from "./nav"
 
 class AboutMe extends Component {
     render(){
         return(
             <>
-             <Nav/>
             <main id="about">
             <h1 className="lg-heading">
                 About <span className="text-secondary">Me</span>
@@ -26,9 +24,6 @@ class AboutMe extends Component {
 
             </div>
             </main>
-            <footer id="main-footer">
-             Copyright &copy; 2019
-            </footer>
             </>
         )
     }

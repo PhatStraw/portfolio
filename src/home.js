@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import Nav from "./nav"
 
 class HomePage extends Component {
     render(){
         return(
             <>
-             <Nav/>
             <main id="home">
             <h1 className="lg-heading">
                 Kevin <span className="text-secondary">Sims</span>
