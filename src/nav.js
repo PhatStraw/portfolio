@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { Link } from 'react-router-dom';
+import Contact from './contact.js'
 
 class Nav extends Component {
 
@@ -28,22 +29,22 @@ class Nav extends Component {
             <nav className='menu'>
                 <ul className='menu-nav'>
                 <li className='nav-item'>
-                    <a to="/contact" className="nav-link">
+                    <a href="#contact" className="nav-link">
                         How To Reach Me
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a to="/projects" className="nav-link">
+                    <a href="#Projects" className="nav-link">
                         Projects
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a to="/aboutme" className="nav-link">
+                    <a href="#about" className="nav-link">
                         About Me
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a exact to="/" className="nav-link">
+                    <a exact href="#home" className="nav-link">
                         Home
                     </a>
                 </li>
