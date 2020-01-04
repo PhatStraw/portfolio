@@ -16,7 +16,7 @@ class Projects extends Component {
             <div className="projects">
             <div className="item">
                 <a href="https://github.com/labs15-rv-life">
-                 <img src="src/img/project1.jpg" alt=''/>
+                 <img src="#" alt=''/>
                 </a>
 
                 <a className="btn-light"
@@ -37,7 +37,7 @@ class Projects extends Component {
                 <a  target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/kevinsims1/project-board">
-                    <img src="src/img/project2.jpg" alt=''/>
+                    <img src="#" alt=''/>
                 </a>
 
                 <a className="btn-light"  target="_blank"
@@ -56,7 +56,7 @@ class Projects extends Component {
                 <a href="https://donor-management-fe.netlify.com/signup"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <img src="src/img/project1.jpg" alt=''/>
+                    <img src="#" alt=''/>
                 </a>
 
                 <a className="btn-light" href="https://donor-management-fe.netlify.com/signup"  target="_blank"

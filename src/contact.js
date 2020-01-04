@@ -9,7 +9,7 @@ class Contact extends Component {
                 Contact <span className="text-secondary">Me</span>
             </h1>
             <h2 className="sm-heading">
-               This is how you can reach me...
+               All inquiry feel free to contact me here...
             </h2>
 
             <div className="boxes">
@@ -23,7 +23,7 @@ class Contact extends Component {
             </div>
             </main>
             <footer id="main-footer">
-             Copyright &copy; 2019
+             Copyright &copy; 2020
             </footer>
             </>
         )
