@@ -24,7 +24,8 @@ body {
 
 nav {
   border: white;
-  width: 100%; }
+  width: 100%;
+  padding: 1rem; }
   nav .menu-nav {
     display: flex;
     flex-direction: row-reverse;
