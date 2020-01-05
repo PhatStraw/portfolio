@@ -9,7 +9,7 @@ class Contact extends Component {
                 Contact <span className="text-secondary">Me</span>
             </h1>
             <h2 className="sm-heading">
-            Click here to contact me with any questions or opportunities you may have.
+            Email or Call me with any questions or opportunities you may have...
             </h2>
 
             <div className="boxes">
