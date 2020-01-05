@@ -14,11 +14,11 @@ class Contact extends Component {
 
             <div className="boxes">
                 <div>
-                    <span className="text-secondary">Email:</span><a href="mailto:Kevindsims1@gmail.com">Kevindsims1@gmail.com</a>
+                    <a href="mailto:Kevindsims1@gmail.com">Click To Email: Kevindsims1@gmail.com</a>
                 </div>
                 
                 <div>
-                    <span className="text-secondary">Phone:</span><a href="tel:+17142710309">714-271-0309</a>
+                    <a href="tel:+17142710309">Click to Call: 714-271-0309</a>
                 </div>
             </div>
             </main>
