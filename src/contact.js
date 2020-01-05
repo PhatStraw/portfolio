@@ -9,16 +9,16 @@ class Contact extends Component {
                 Contact <span className="text-secondary">Me</span>
             </h1>
             <h2 className="sm-heading">
-               All inquiry feel free to contact me here...
+            Click here to contact me with any questions or opportunities you may have.
             </h2>
 
             <div className="boxes">
                 <div>
-                    <span className="text-secondary">Email:</span>Kevindsims1@gmail.com
+                    <span className="text-secondary">Email:</span><a href="mailto:Kevindsims1@gmail.com">Kevindsims1@gmail.com</a>
                 </div>
                 
                 <div>
-                    <span className="text-secondary">Phone:</span>714-271-0309
+                    <span className="text-secondary">Phone:</span><a href="tel:+17142710309">714-271-0309</a>
                 </div>
             </div>
             </main>
